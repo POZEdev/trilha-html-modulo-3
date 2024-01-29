@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { 
+    list-style: none; 
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size:large; 
+}
+
+a { 
+    color:rgb(195, 0, 255);
+    text-decoration: none;
+    background-color: rgb(252, 252, 255);
+    border: 2px groove;
+    padding: 5px;
+    border-radius: 10px 0px 10px;
+    display:grid;    
+    text-align: center;
+}
+
+a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(195, 0, 255);
+    font-size: x-large;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:5px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    text-align: center;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    text-align: center;
+}
+
+#imagem-meditation {
+    background-image: url("../images/spritual.jpg");
+    background-position: 50% 75%;
+    background-size: cover;
+    width: 1366px;
+    height: 200px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+#imagem-love {
+    background-image: url("../images/love.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 1366px;
+    height: 400px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-right: -10px;
+    
+    
+}
